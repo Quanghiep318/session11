@@ -121,30 +121,5 @@
 // }
 // console.log("Phan tu xuat hien nhieu nhat:" + newarray.join(","));
 
-// ------------Bai 5-------------
-let todoList= ["Go to school at 7am", "Read book at 12 am"];
-for (let i = 0; i < todoList.length;i++) 
-console.log(`${+1}. ${todoList[i]}`);
-
-let input = prompt("Cho nguoi dung nhap C/R/U/D/E").toLowerCase();
-if (input === "c"){
-    // console.log("Tao Moi");
-    let newtodo = prompt("Nhap noi dung viec moi can them");
-    todoList.push(newtodo);
-    for (let i = 0; i < todoList.length;i++) 
-    console.log(`${+1}. ${todoList[i]}`);
-}
-if (input === "r"){
-    // console.log("Inlai");
-    for (let i = 0; i < todoList.length;i++) 
-    console.log(`${+1}. ${todoList[i]}`);
-}
-if (input === "u"){
-    console.log("Update");
-}
-if (input === "d"){
-    console.log("delete");
-}
-if (input === "e"){
-    console.log("Quit");
-}
+// ------------Bai 5------------- chua lam dc
+// ------------Bai 6-------------chua lam dc
